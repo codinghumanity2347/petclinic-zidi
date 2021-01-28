@@ -184,20 +184,19 @@
             <version>${jodatime-jsptags.version}</version>
         </dependency>
 
-        <!-- Databases - Uses  by default 
+        <!-- Databases - Uses HSQL by default 
         <dependency>
             <groupId>org.hsqldb</groupId>
             <artifactId>hsqldb</artifactId>
             <scope>runtime</scope>
         </dependency>
 -->
-        <!-- For MySql only -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>${mysql-driver.version}</version>
+                <version>5.1.6</version>
         </dependency>
-
+        
         <!-- HIBERNATE -->
         <dependency>
             <groupId>org.hibernate</groupId>
